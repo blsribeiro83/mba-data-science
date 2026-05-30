@@ -18,7 +18,7 @@ np.median(lista_desc)  # resultado: 4.00
 #MODA - valor que aparece com mais frequência
 #Única medida que funciona para dados qualitativos
 #Uma distribuição pode ter mais de uma moda (bimodal)
-#Numpy não tem função nativa pada moda, deve-se usar stats
+#Python não tem função nativa pada moda, tem que importar scipy
 
 from scipy import stats
 stats.mode(lista_desc)  # resultado: 6 (aparece 2x)
