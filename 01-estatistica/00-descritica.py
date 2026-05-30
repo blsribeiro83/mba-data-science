@@ -13,4 +13,4 @@ np.mean(lista_desc)  # resultado: 3.857
 #50% dos valores estão abaixo, 50% acima
 #Robusta a outliers (o CEO rico não distorce)
 
-np.median(lista_desc)  # resultado: 4.0
+np.median(lista_desc)  # resultado: 4.00
