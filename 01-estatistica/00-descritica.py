@@ -14,3 +14,13 @@ np.mean(lista_desc)  # resultado: 3.857
 #Robusta a outliers (o CEO rico não distorce)
 
 np.median(lista_desc)  # resultado: 4.00
+
+#MODA - valor que aparece com mais frequência
+#Única medida que funciona para dados qualitativos
+#Uma distribuição pode ter mais de uma moda (bimodal)
+#Numpy não tem função nativa pada moda, deve-se usar stats
+
+from scipy import stats
+stats.mode(lista_desc)  # resultado: 6 (aparece 2x)
+
+
