@@ -1,1 +1,6 @@
+#mdidas de posicao
+
+#media
 import numpy as np
+lista_desc = [1,2,3,4,5,6,6]
+np.mean(lista_desc)
