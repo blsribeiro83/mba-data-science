@@ -340,7 +340,7 @@ filtro_tempo_2 = dados_tempo[(dados_tempo['tempo'] > 30) & (dados_tempo['distanc
 filtro_tempo_3 = dados_tempo[dados_tempo['tempo'].between(25, 40, inclusive='both')]
 # inclusive: "both", "neither", "left" ou "right"
 
-dados_tempo.query('tempo >= 25')
+dados_tempo.query('tempo >= 25')dados_
 dados_tempo.query('tempo > 30 & distancia <= 25')
 dados_tempo.query('tempo.between(25, 40, inclusive="both")')
 
