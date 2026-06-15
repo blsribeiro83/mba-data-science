@@ -28,7 +28,7 @@ dados_grupo = pd.read_excel('(2.3) WDI Income Group.xlsx')
 dados_paises = pd.read_excel('(2.4) WDI Country.xlsx')
 
 #%% Informações básicas dos dados
-
+"
 dados_wdi.info()
 
 #%% Elementos únicos das variáveis
